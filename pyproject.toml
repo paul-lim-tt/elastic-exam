@@ -6,11 +6,13 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "dill>=0.4.0",
+    "django-ninja>=1.4.1",
     "elasticsearch>=9.0.1",
     "lingua>=4.15.0",
     "lingua-language-detector>=2.1.0",
     "litellm>=1.69.1",
     "numpy>=2.2.5",
+    "psycopg[binary,pool]>=3.2.9",
     "pydantic>=2.11.4",
     "rich>=14.0.0",
     "sqlalchemy>=2.0.40",

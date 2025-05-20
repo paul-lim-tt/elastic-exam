@@ -4,6 +4,10 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit"
         },
+        "editor.formatOnSave": true
     },
     "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.extraPaths": [
+        "app"
+    ]
 }
